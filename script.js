@@ -13,3 +13,24 @@ function appendOperator(operator) {
     updateDisplay();
 }
 
+function clearAll() {
+    expression = "";
+    document.getElementById("process").innerText = "";
+    document.getElementById("result").innerText = "0";
+}
+
+function calculate() {
+    try {
+        let result = eval(expression);
+        document.getElementById("process").innerText = expression;
+        document.getElementById("result").innerText = result;
+        expression = result.toString();
+    } catch {
+        document.getElementById("result").innerText = "Error";
+        expression = "";
+    }
+}
+
+function updateDisplay() {
+    document.getElementById("result").innerText = expression || "0";
+}
