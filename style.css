@@ -33,11 +33,6 @@ body {
     letter-spacing: 1px;
 }
 
-.result {
-    font-size: 30px;
-    font-weight: bold;
-}
-
 .buttons {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
