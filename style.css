@@ -32,6 +32,10 @@ body {
     min-height: 20px;
     letter-spacing: 1px;
 }
+.result {
+    font-size: 32px;
+    font-weight: bold;
+}
 
 .buttons {
     display: grid;
