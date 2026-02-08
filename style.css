@@ -64,6 +64,9 @@ button:active {
     box-shadow: 0 1px #222;
 }
 
+button.operator:hover{
+    background: #555;
+}
 .equal {
     grid-row: span 2;
     background: linear-gradient(135deg, #ff9800, #ff5722);
