@@ -64,6 +64,10 @@ button:active {
     box-shadow: 0 1px #222;
 }
 
+button.operator{
+    background: #ff9800;
+}
+
 .equal {
     grid-row: span 2;
     background: linear-gradient(135deg, #ff9800, #ff5722);
